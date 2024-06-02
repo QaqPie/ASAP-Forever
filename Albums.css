@@ -1,0 +1,57 @@
+.albums-container {
+  background-image: url('https://2.bp.blogspot.com/-ghd10v6qg0I/ULOVTFltyvI/AAAAAAAABLM/szaO48NmwzU/s1600/ASAP_ROCKY_11.jpg');
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-size: cover; 
+  background-repeat: repeat;
+  background-position: center; 
+  min-height: 100vh;
+  padding: 20px;
+  justify-content: center;
+  align-items: start;
+  color: #ffffff; 
+  text-align: center;
+}
+
+.album {
+  flex: 0 1 calc(33.333% - 20px);
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.album:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.album img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.album-info {
+  padding: 10px;
+}
+
+.album-info h2 {
+  margin: 10px 0;
+}
+
+.tracks {
+  margin-top: 10px;
+}
+
+.track {
+  margin-bottom: 10px;
+}
+
+.track p {
+  margin: 5px 0;
+}
